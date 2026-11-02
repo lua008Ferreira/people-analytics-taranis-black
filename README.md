@@ -1,5 +1,5 @@
 
-# people-analytics-taranis-black
+# people-analytics-taranis
 Consultoria estratégica de IA e People Analytics para redução de turnover (Challenge ONE + Alura)
 # IA no RH da Taranis Black
 
