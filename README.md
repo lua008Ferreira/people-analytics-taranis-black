@@ -1,64 +1,47 @@
+# 📊 People Analytics & IA na Taranis Black
+> **Challenge ONE (Oracle Next Education) + Alura** — Trilha Business AI & Dados
 
-# people-analytics-taranis
-Consultoria estratégica de IA e People Analytics para redução de turnover (Challenge ONE + Alura)
-# IA no RH da Taranis Black
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](analise-dados/analise_people_analytics.py)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](analise-dados/)
+[![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)](#)
 
-Proposta de consultoria de IA para reduzir o turnover e recuperar o clima de uma empresa fictícia, com **decisão final sempre humana** e conformidade com a LGPD.
+Proposta de consultoria de IA para reduzir o *turnover* (rotatividade) e recuperar o clima de uma empresa fictícia, garantindo **decisão final sempre humana** e total conformidade com a LGPD.
 
-> Projeto educacional desenvolvido no **Challenge Taranis Black** (Rota 3: RH e People Analytics), parte da Imersão Agentes de IA para Negócios da **Oracle Next Education (ONE) + Alura**. A empresa, os colaboradores e todos os dados são **fictícios**.
-
-## O problema
-
-A Taranis Black, empresa fictícia de ergonomia corporativa com 280 colaboradores, enfrenta **24% de turnover nos primeiros 90 dias** e queda do eNPS de **+62 para +28**. A causa mais citada: líderes recém-promovidos com dificuldade para conduzir feedbacks difíceis.
-
-## A solução em uma frase
-
-Três iniciativas de IA no RH, priorizadas por esforço e impacto, com supervisão humana, métricas de adoção e uma política de IA responsável.
-
-| # | Iniciativa | Tipo de IA | Posição na matriz |
-|---|---|---|---|
-| 1 | Alerta de risco de turnover | Preditiva | Alto impacto, baixo esforço (vitória rápida) |
-| 2 | Simulador de feedback para líderes (modelo SBI) | Generativa | Alto impacto, alto esforço (aposta estratégica) |
-| 3 | Mapeamento de perfis de liderança | Tradicional / ML | Baixo impacto, baixo esforço (melhoria contínua) |
-
-## Resultados em destaque
-
-- **Meta proposta:** turnover de 90 dias de 24% para 17% em dois trimestres; eNPS de +28 para +45 em 12 meses.
-- **ROI estimado:** cerca de **314%**. Na base fictícia, 13 pessoas saíram em até 90 dias, com salário médio de R$ 6.908. Com 3 salários como custo de saída (hipótese), a meta evita cerca de 4 saídas por ano, uma economia de R$ 82.900 contra um custo estimado de R$ 20.000.
-- **Governança:** princípios de IA responsável, matriz de riscos, regras de uso, conformidade com a LGPD (incluindo o art. 20 sobre decisões automatizadas), Comitê de IA e auditoria periódica.
-
-As premissas (custo de saída, custo da IA e horas economizadas) são hipóteses, declaradas no documento e a validar em um piloto.
-
-## O que contém este repositório
-
-| Entrega | Situação | Onde |
-|---|---|---|
-| Rota 0: AI Canvas, casos de uso, matriz, métricas, plano de mudança e política de IA | Concluída | [`docs/`](docs/) |
-| Simulador de feedback (4 personas, prompt de sistema, sessões A e B com SBI, avaliação 2,0 vs 9,8) | Concluída | [`simulador-feedback/`](simulador-feedback/) |
-| Análise de People Analytics (turnover, motivos, eNPS, correlações, clima) | Concluída | [`analise-people-analytics/`](analise-people-analytics/) |
-| Prints e evidências | Concluída | [`evidencias/`](evidencias/) |
-| Cálculo de ROI em Python | Concluída | [`roi/`](roi/) |
-
-## Como foi feito
-
-- **AI Canvas** da STARSE para estruturar problema, solução com e sem IA, públicos, dados e ferramentas.
-- **ChatGPT** para o simulador de feedback.
-- **Python (pandas, matplotlib)** para o ROI e para a análise de People Analytics.
-- **Google Docs** como entrega final do challenge.
-
-## Princípios do projeto
-
-1. A IA apoia a decisão e nunca decide sobre pessoas.
-2. Nenhum dado pessoal real é usado.
-3. Atributos sensíveis (gênero, idade, salário) ficam fora dos modelos.
-4. A IA não monitora conversas reais.
-
-## Sobre mim
-
-**Luana Ferreira de Sousa**, estudante de Ciência de Dados com experiência em governança de dados e suporte de TI, em transição para dados e IA.
-
-- LinkedIn: [link]
-- Portfólio: [link]
 
 ---
+
+## 🎯 Visão Geral do Desafio
+A **Taranis Black**, empresa fictícia de ergonomia corporativa com 280 colaboradores, enfrenta desafios críticos:
+* **24% de turnover** nos primeiros 90 dias.
+* Queda no eNPS de **+62 para +28**.
+* Causa raiz identificada: líderes recém-promovidos com dificuldades em conduzir conversas difíceis e feedbacks estruturados.
+
+---
+
+## 🛠️ Soluções Implementadas (Matriz de Impacto)
+
+| # | Iniciativa | Tipo de IA | Impacto no Negócio | Onde encontrar |
+|---|---|---|---|---|
+| 1 | **Alerta de Risco de Turnover** | Preditiva | Alto impacto, baixo esforço (Vitória rápida) | [`docs/`](docs/) |
+| 2 | **Simulador de Feedback (Modelo SBI)** | Generativa | Alto impacto, alto esforço (Aposta estratégica) | [`simulador-feedback/`](simulador-feedback/) |
+| 3 | **Mapeamento de Perfis de Liderança** | Tradicional / ML | Baixo impacto, baixo esforço (Melhoria contínua) | [`docs/`](docs/) |
+
+---
+
+## 📈 Principais Resultados & Análise de Dados
+A análise executada em Python revelou que **72% dos desligamentos** estão ligados a falhas de gestão, metas confusas e sobrecarga de trabalho (especialmente nos departamentos de *Suporte ao Cliente* e *Comercial B2B*).
+
+- **ROI Estimado:** ~**314%** (economia projetada de cerca de R\$ 82.900 anuais com a retenção de talentos críticos).
+- **Governança & LGPD:** Princípios rigorosos de IA responsável, garantindo que a tecnologia atue apenas como suporte à decisão humana (Art. 20 da LGPD).
+
+---
+
+## 📂 Estrutura do Repositório
+
+```text
+📦 people-analytics-taranis-black/
+ ┣ 📂 analise-dados/           # Scripts Python, base de dados fictícia e gráficos
+ ┣ 📂 simulador-feedback/      # Prompts e personas do simulador de feedback (SBI)
+ ┣ 📂 docs/                    # AI Canvas, ROI, plano de mudança e políticas de IA
+ ┗ 📜 README.md                # Documentação principal
 *Projeto educacional. Empresa, pessoas e dados fictícios. Nenhuma informação real é usada neste repositório.*
