@@ -38,7 +38,6 @@ As premissas (custo de saída, custo da IA e horas economizadas) são hipóteses
 | Análise de People Analytics (turnover, motivos, eNPS, correlações, clima) | Concluída | [`analise-people-analytics/`](analise-people-analytics/) |
 | Prints e evidências | Concluída | [`evidencias/`](evidencias/) |
 | Cálculo de ROI em Python | Concluída | [`roi/`](roi/) |
-| Vídeo de apresentação (até 5 min) | A gravar | [link a adicionar] |
 
 ## Como foi feito
 
