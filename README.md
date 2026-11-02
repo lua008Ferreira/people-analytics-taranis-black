@@ -18,7 +18,7 @@ A **Taranis Black**, empresa fictícia de ergonomia corporativa com 280 colabora
 
 ---
 
-## 🛠️ Soluções Implementadas (Matriz de Impacto)
+## 🛠️ Soluções Implementadas (Matriz de esoforço\impacto)
 
 | # | Iniciativa | Tipo de IA | Impacto no Negócio | Onde encontrar |
 |---|---|---|---|---|
