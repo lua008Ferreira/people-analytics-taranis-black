@@ -20,11 +20,11 @@ A **Taranis Black**, empresa fictícia de ergonomia corporativa com 280 colabora
 
 ## 🛠️ Soluções Implementadas (Matriz de esoforço\impacto)
 
-| # | Iniciativa | Tipo de IA | Impacto no Negócio | Onde encontrar |
+| # | Iniciativa | Tipo de IA | Impacto no título | Onde encontrar |
 |---|---|---|---|---|
-| 1 | **Alerta de Risco de Turnover** | Preditiva | Alto impacto, baixo esforço (Vitória rápida) | [`docs/`](docs/) |
+| 1 | **Alerta de Risco de Turnover** | Preditiva | Alto impacto, baixo esforço (Vitória rápida) | [`analise-pessoas/`](analise-pessoas/) |
 | 2 | **Simulador de Feedback (Modelo SBI)** | Generativa | Alto impacto, alto esforço (Aposta estratégica) | [`simulador-feedback/`](simulador-feedback/) |
-| 3 | **Mapeamento de Perfis de Liderança** | Tradicional / ML | Baixo impacto, baixo esforço (Melhoria contínua) | [`docs/`](docs/) |
+| 3 | **Mapeamento de Perfis de Liderança** | Tradicional / ML | Baixo impacto, baixo esforço (Melhoria contínua) | [`docs/`](docs/) ou [`lideranca/`](lideranca/) |
 
 ---
 
