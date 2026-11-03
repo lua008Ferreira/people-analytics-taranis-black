@@ -1,7 +1,0 @@
-Desligados em ate 90 dias: 13
-Salario medio: R$ 6,908
-Custo de uma saida (3 salarios): R$ 20,723
-Saidas evitadas por ano (meta 24% -> 17%): 4
-Economia anual: R$ 82,892
-Custo estimado da IA: R$ 20,000
-ROI: 314%
