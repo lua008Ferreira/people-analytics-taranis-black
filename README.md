@@ -1,5 +1,4 @@
-# 📊 People Analytics & IA na Taranis Black
-> **Challenge ONE (Oracle Next Education) + Alura** — Trilha Business AI & Dados
+#- [**People Analytics**](https://github.com/lua008Ferreira/people-analytics-taranis-black): consultoria estratégica de IA e People Analytics para redução de turnover (Challenge ONE + Alura).
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](analise-dados/analise_people_analytics.py)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](analise-dados/)
