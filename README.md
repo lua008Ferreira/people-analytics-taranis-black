@@ -1,46 +1,50 @@
-#- [**People Analytics**](https://github.com/lua008Ferreira/people-analytics-taranis-black): consultoria estratégica de IA e People Analytics para redução de turnover (Challenge ONE + Alura).
+<p align="center">
+  <img src="people-analytics-banner.svg" alt="People Analytics, consultoria estratégica de IA para redução de turnover" width="100%">
+</p>
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](analise-dados/analise_people_analytics.py)
-[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](analise-dados/)
-[![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)](#)
+<p align="center">
+  <a href="analise-dados/analise_people_analytics.py"><img alt="Python" src="https://img.shields.io/badge/Python-04100C?style=for-the-badge&logo=python&logoColor=2CF2A4"></a>
+  <a href="analise-dados"><img alt="Pandas" src="https://img.shields.io/badge/Pandas-04100C?style=for-the-badge&logo=pandas&logoColor=D8B25A"></a>
+  <img alt="Projeto educacional" src="https://img.shields.io/badge/Projeto-educacional-04100C?style=for-the-badge&logoColor=2CF2A4">
+</p>
 
-Proposta de consultoria de IA para reduzir o *turnover* (rotatividade) e recuperar o clima de uma empresa fictícia, garantindo **decisão final sempre humana** e total conformidade com a LGPD.
+Proposta de consultoria de IA para reduzir o **turnover** (rotatividade) e recuperar o clima de uma empresa fictícia, garantindo que a **decisão final seja sempre humana** e a **conformidade com a LGPD**.
 
+## 🎯 Visão geral do desafio
 
----
-
-## 🎯 Visão Geral do Desafio
 A **Taranis Black**, empresa fictícia de ergonomia corporativa com 280 colaboradores, enfrenta desafios críticos:
-* **24% de turnover** nos primeiros 90 dias.
-* Queda no eNPS de **+62 para +28**.
-* Causa raiz identificada: líderes recém-promovidos com dificuldades em conduzir conversas difíceis e feedbacks estruturados.
 
----
+- **24% de turnover** nos primeiros 90 dias.
+- Queda do **eNPS de +62 para +28**.
+- Causa raiz identificada: líderes recém-promovidos com dificuldade em conduzir conversas difíceis e dar feedbacks estruturados.
 
-## 🛠️ Soluções Implementadas (Matriz de esoforço\impacto)
+## 🛠️ Soluções propostas (matriz esforço × impacto)
 
-| # | Iniciativa | Tipo de IA | Impacto no título | Onde encontrar |
+| # | Iniciativa | Tipo de IA | Esforço × impacto | Onde encontrar |
 |---|---|---|---|---|
-| 1 | **Alerta de Risco de Turnover** | Preditiva | Alto impacto, baixo esforço (Vitória rápida) | [`analise-pessoas/`](analise-pessoas/) |
-| 2 | **Simulador de Feedback (Modelo SBI)** | Generativa | Alto impacto, alto esforço (Aposta estratégica) | [`simulador-feedback/`](simulador-feedback/) |
-| 3 | **Mapeamento de Perfis de Liderança** | Tradicional / ML | Baixo impacto, baixo esforço (Melhoria contínua) | [`docs/`](docs/) ou [`lideranca/`](lideranca/) |
+| 1 | Alerta de risco de turnover | Preditiva | Alto impacto, baixo esforço (vitória rápida) | [analise-dados/](analise-dados) |
+| 2 | Simulador de feedback (modelo SBI) | Generativa | Alto impacto, alto esforço (aposta estratégica) | [simulador-feedback/](simulador-feedback) |
+| 3 | Mapeamento de perfis de liderança | Tradicional / ML | Baixo impacto, baixo esforço (melhoria contínua) | [docs/](docs) |
 
----
+## 📈 Principais resultados e análise de dados
 
-## 📈 Principais Resultados & Análise de Dados
-A análise executada em Python revelou que **72% dos desligamentos** estão ligados a falhas de gestão, metas confusas e sobrecarga de trabalho (especialmente nos departamentos de *Suporte ao Cliente* e *Comercial B2B*).
+Uma análise em Python mostrou que **72% dos desligamentos** estão ligados a falhas de gestão, metas confusas e sobrecarga de trabalho, principalmente nos departamentos de **Suporte ao Cliente** e **Comercial B2B**.
 
-- **ROI Estimado:** ~**314%** (economia projetada de cerca de R\$ 82.900 anuais com a retenção de talentos críticos).
-- **Governança & LGPD:** Princípios rigorosos de IA responsável, garantindo que a tecnologia atue apenas como suporte à decisão humana (Art. 20 da LGPD).
+- **ROI estimado:** cerca de **314%**, com economia projetada de aproximadamente **R$ 82.900 por ano** com a retenção de talentos críticos.
+- **Governança e LGPD:** princípios de IA responsável, com a tecnologia atuando só como apoio à decisão humana (Art. 20 da LGPD).
 
----
-
-## 📂 Estrutura do Repositório
+## 📂 Estrutura do repositório
 
 ```text
-📦 people-analytics-taranis-black/
- ┣ 📂 analise-dados/           # Scripts Python, base de dados fictícia e gráficos
- ┣ 📂 simulador-feedback/      # Prompts e personas do simulador de feedback (SBI)
- ┣ 📂 docs/                    # AI Canvas, ROI, plano de mudança e políticas de IA
- ┗ 📜 README.md                # Documentação principal
-*Projeto educacional. Empresa, pessoas e dados fictícios. Nenhuma informação real é usada neste repositório.*
+people-analytics-taranis-black/
+├── analise-dados/        # Scripts Python, base de dados fictícia e gráficos
+├── simulador-feedback/   # Prompts e personas do simulador de feedback (SBI)
+├── docs/                 # AI Canvas, ROI, plano de mudança e políticas de IA
+└── README.md             # Documentação principal
+```
+
+---
+
+*Projeto educacional (Challenge ONE + Alura). Empresa, pessoas e dados são fictícios. Nenhuma informação real é usada neste repositório.*
+
+**Autoria:** Luana Ferreira de Sousa · [LinkedIn](https://www.linkedin.com/in/luaferreira-desousa/)
